@@ -87,7 +87,7 @@
   <string role="key" value="_name"></string>
   <unicode value="3.ciencias.fisicas"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="15"></int>
+  <int value="30"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="21"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -334,391 +334,159 @@ complete this learning."></unicode>
               <int value="0"></int>
              </dictionary>
             </instance>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="9">
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="9">
              <dictionary>
               <string role="key" value="_title"></string>
-              <unicode value="Leer"></unicode>
-              <string role="key" value="_attributes"></string>
-              <list>
-               <tuple>
-                <string value="title"></string>
-                <list>
-                 <string value="Title"></string>
-                 <int value="0"></int>
-                 <int value="0"></int>
-                </list>
-               </tuple>
-               <tuple>
-                <string value="category"></string>
-                <list>
-                 <string value="Category"></string>
-                 <int value="0"></int>
-                 <int value="1"></int>
-                </list>
-               </tuple>
-               <tuple>
-                <string value="css-class"></string>
-                <list>
-                 <string value="CSS class"></string>
-                 <int value="0"></int>
-                 <int value="2"></int>
-                </list>
-               </tuple>
-               <tuple>
-                <string value="icon"></string>
-                <list>
-                 <string value="Icon"></string>
-                 <int value="0"></int>
-                 <int value="3"></int>
-                </list>
-               </tuple>
-              </list>
+              <unicode value="Free Text"></unicode>
               <string role="key" value="_author"></string>
-              <string value=""></string>
-              <string role="key" value="_iDeviceDir"></string>
-              <string value="udl-content"></string>
+              <unicode value="University of Auckland"></unicode>
               <string role="key" value="_purpose"></string>
-              <string value=""></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
               <string role="key" value="_tip"></string>
               <string value=""></string>
               <string role="key" value="_typeName"></string>
-              <unicode value="UDL Content"></unicode>
-              <string role="key" value="_valid"></string>
-              <bool value="1"></bool>
-              <string role="key" value="class_"></string>
-              <unicode value="UDLcontent"></unicode>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="10">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="9"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;figure class=&quot;exe-figure exe-image float-right license-custom&quot; style=&quot;width: 510px;&quot;&gt;&lt;img src=&quot;resources/3.1_ciencias.png&quot; alt=&quot;&quot; width=&quot;510&quot; height=&quot;250&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;El conocimiento se clasifica en:&lt;/strong&gt;&lt;br /&gt;■ Popular (natural, vulgar). Es cotidiano y se caracteriza porque permanece en el tiempo; además, suele pertenecer a culturas determinadas &lt;br /&gt;sin orígenes claros. Este tipo de conocimiento se aprende y se aplica.&lt;br /&gt;■ Científico. Ocurre mediante el seguimiento de una metodología o &lt;br /&gt;serie de pasos con la finalidad de descubrir causas y fenómenos e &lt;br /&gt;interpretar hechos. Se aprecia la realidad mediante la observación &lt;br /&gt;registrada, la demostración y comprobación de eventos de forma &lt;br /&gt;sistemática, por lo que supera el sentido común.&lt;br /&gt;Partiendo de esto, la ciencia se puede definir como el conjunto de conocimientos objetivos y verificables relacionados con la realidad que rodea al ser humano, y que busca formular explicaciones para incorporarlas a las preexistentes, con el propósito de seguir construyendo nuevos conocimientos.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;Las ciencias pueden ser:&lt;/strong&gt;&lt;br /&gt;■ Naturales: se encarga del estudio de fenómenos naturales y de las leyes que los rigen. En esta categoría se encuentran la química, física, biología, astronomía, zoología, botánica, meteorología, paleontología.&lt;br /&gt;■ Formales: Estudian contenidos abstractos, como las matemáticas, la lógica y las ciencias de la computación.&lt;br /&gt;■ Sociales: Atienden las dimensiones individuales y colectivas de la existencia. Algunas son: antropología, economía, derecho y sociología.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;Métodos de investigación científica&lt;/strong&gt;&lt;br /&gt; Existen diversas opciones para abordar los problemas que se presentan en la ciencia y la construcción de nuevos conocimientos científicos. Estos son:&lt;br /&gt;■ Método sintético: busca reconstruir un acontecimiento de manera resumida, valiéndose de los diferentes elementos fundamentales que estuvieron presentes en el desarrollo del acontecimiento.&lt;br /&gt;■ Método inductivo: lleva a conclusiones generales a partir de casos individuales.&lt;br /&gt;■ Método deductivo: va desde un razonamiento general y lógico, basado en leyes o principios, hasta un hecho concreto.&lt;br /&gt;■ Método analítico: consiste en la separación de un todo descomponiéndose en sus partes o elementos para observar las causas, naturaleza y los efectos.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;El método científico consiste en un proceso donde se emplea:&lt;/strong&gt;&lt;br /&gt;■ Observación: se define el fenómeno natural desde la realidad y de manera objetiva.&lt;br /&gt;■ Planteamiento del problema: se identifica y formula claramente la pregunta a resolver.&lt;br /&gt;■ Hipótesis: se establecen suposiciones para tratar de explicar la causa del fenómeno natural.&lt;br /&gt;■ Experimentación: Se diseña un experimento, se realiza y se anotan los resultados con la finalidad de confirmar, descartar o reformular la hipótesis.&lt;br /&gt;■ Análisis: se debe examinar y evaluarlos datos recopilados, de manera efectiva.&lt;br /&gt;■ Conclusión: se presentan los resultados a la comunidad científica y al público en general.&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="258"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="15_85.1"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="11">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="9"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="3.1_ciencias.png"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpscngyx\\3.1_ciencias.png"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="e4f24b23232d515fb340336cf65b8bbf"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="10"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                  </list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="10"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="2"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="8"></reference>
+               </dictionary>
+              </instance>
               <string role="key" value="edit"></string>
               <bool value="0"></bool>
               <string role="key" value="emphasis"></string>
-              <int value="1"></int>
-              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
-              <int value="1"></int>
-              <string role="key" value="fields"></string>
-              <list>
-               <instance class="exe.engine.field.TextAreaField" reference="10">
-                <dictionary>
-                 <string role="key" value="_id"></string>
-                 <unicode value="136_2"></unicode>
-                 <string role="key" value="_idevice"></string>
-                 <reference key="9"></reference>
-                 <string role="key" value="_instruc"></string>
-                 <string value=""></string>
-                 <string role="key" value="_name"></string>
-                 <string value=""></string>
-                 <string role="key" value="anchor_names"></string>
-                 <list></list>
-                 <string role="key" value="anchors_linked_from_fields"></string>
-                 <dictionary></dictionary>
-                 <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-udlContent exe-udlContent-expression&quot;&gt;&lt;section class=&quot;exe-udlContent-block&quot;&gt;&lt;div class=&quot;exe-udlContent-content&quot;&gt;&lt;div class=&quot;exe-udlContent-content-main&quot;&gt;&lt;p&gt;El conocimiento se clasifica en:&lt;br&gt;■ Popular (natural, vulgar). Es cotidiano y se caracteriza porque permanece en el tiempo; además, suele pertenecer a culturas determinadas&amp;nbsp;sin orígenes claros. Este tipo de conocimiento se aprende y se aplica.&lt;br&gt;■ Científico. Ocurre mediante el seguimiento de una metodología o&amp;nbsp;serie de pasos con la finalidad de descubrir causas y fenómenos e&amp;nbsp;interpretar hechos. Se aprecia la realidad mediante la observación&amp;nbsp;registrada, la demostración y comprobación de eventos de forma&amp;nbsp;sistemática, por lo que supera el sentido común.&lt;br&gt;Partiendo de esto, la ciencia se puede definir como el conjunto de conocimientos objetivos y verificables relacionados con la realidad que rodea al ser&amp;nbsp;humano, y que busca formular explicaciones para incorporarlas a las preexistentes, con el propósito de seguir construyendo nuevos conocimientos.&lt;/p&gt;
-&lt;p&gt;Las ciencias pueden ser:&lt;br&gt;■ Naturales: se encarga del estudio&amp;nbsp;de fenómenos naturales y de las leyes que los rigen. En esta categoría &lt;br&gt;se encuentran la química, física, biología, astronomía, zoología, botánica, meteorología, paleontología.&lt;br&gt;■ Formales: Estudian contenidos&amp;nbsp;abstractos, como las matemáticas,&amp;nbsp;la lógica y las ciencias de la computación.&lt;br&gt;■ Sociales: Atienden las dimensiones individuales y colectivas de la&amp;nbsp;existencia. Algunas son: antropología, economía, derecho y sociología.&lt;/p&gt;
-&lt;p&gt;El método científico y sus pasos&lt;br&gt;Para ser considerado como científico, este método debe poseer dos características fundamentales:&lt;br&gt;■ Reproducibilidad: Debe poder&amp;nbsp;replicarse en cualquier lugar y&amp;nbsp;por cualquier persona.&lt;/p&gt;
-&lt;p&gt;■ Refutabilidad: Puede ser objetado en cualquier momento.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;/div&gt;"></unicode>
-                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                 <int value="4"></int>
-                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                 <int value="2"></int>
-                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                 <int value="3"></int>
-                 <string role="key" value="htmlTag"></string>
-                 <string value="div"></string>
-                 <string role="key" value="images"></string>
-                 <instance class="exe.engine.galleryidevice.GalleryImages">
-                  <dictionary>
-                   <string role="key" value=".listitems"></string>
-                   <list></list>
-                   <string role="key" value="idevice"></string>
-                   <reference key="10"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="intlinks_to_anchors"></string>
-                 <dictionary></dictionary>
-                 <string role="key" value="nextImageId"></string>
-                 <int value="0"></int>
-                 <string role="key" value="parentNode"></string>
-                 <reference key="8"></reference>
-                </dictionary>
-               </instance>
-              </list>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
               <string role="key" value="icon"></string>
-              <unicode value=""></unicode>
+              <string value=""></string>
               <string role="key" value="id"></string>
-              <unicode value="10"></unicode>
-              <string role="key" value="ideviceCategory"></string>
-              <unicode value="Text and Tasks"></unicode>
+              <unicode value="15"></unicode>
               <string role="key" value="lastIdevice"></string>
               <bool value="0"></bool>
-              <string role="key" value="nextFieldId"></string>
-              <int value="3"></int>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
               <string role="key" value="parentNode"></string>
               <reference key="8"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
               <string role="key" value="undo"></string>
               <bool value="1"></bool>
               <string role="key" value="userResources"></string>
-              <list></list>
+              <list>
+               <reference key="11"></reference>
+              </list>
               <string role="key" value="version"></string>
               <int value="0"></int>
              </dictionary>
             </instance>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="11">
-             <dictionary>
-              <string role="key" value="_title"></string>
-              <unicode value="Métodos de investigación científica"></unicode>
-              <string role="key" value="_attributes"></string>
-              <list>
-               <tuple>
-                <string value="title"></string>
-                <list>
-                 <string value="Title"></string>
-                 <int value="0"></int>
-                 <int value="0"></int>
-                </list>
-               </tuple>
-               <tuple>
-                <string value="category"></string>
-                <list>
-                 <string value="Category"></string>
-                 <int value="0"></int>
-                 <int value="1"></int>
-                </list>
-               </tuple>
-               <tuple>
-                <string value="css-class"></string>
-                <list>
-                 <string value="CSS class"></string>
-                 <int value="0"></int>
-                 <int value="2"></int>
-                </list>
-               </tuple>
-               <tuple>
-                <string value="icon"></string>
-                <list>
-                 <string value="Icon"></string>
-                 <int value="0"></int>
-                 <int value="3"></int>
-                </list>
-               </tuple>
-              </list>
-              <string role="key" value="_author"></string>
-              <string value=""></string>
-              <string role="key" value="_iDeviceDir"></string>
-              <string value="udl-content"></string>
-              <string role="key" value="_purpose"></string>
-              <string value=""></string>
-              <string role="key" value="_tip"></string>
-              <string value=""></string>
-              <string role="key" value="_typeName"></string>
-              <unicode value="UDL Content"></unicode>
-              <string role="key" value="_valid"></string>
-              <bool value="1"></bool>
-              <string role="key" value="class_"></string>
-              <unicode value="UDLcontent"></unicode>
-              <string role="key" value="edit"></string>
-              <bool value="0"></bool>
-              <string role="key" value="emphasis"></string>
-              <int value="1"></int>
-              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
-              <int value="1"></int>
-              <string role="key" value="fields"></string>
-              <list>
-               <instance class="exe.engine.field.TextAreaField" reference="12">
-                <dictionary>
-                 <string role="key" value="_id"></string>
-                 <unicode value="137_2"></unicode>
-                 <string role="key" value="_idevice"></string>
-                 <reference key="11"></reference>
-                 <string role="key" value="_instruc"></string>
-                 <string value=""></string>
-                 <string role="key" value="_name"></string>
-                 <string value=""></string>
-                 <string role="key" value="anchor_names"></string>
-                 <list></list>
-                 <string role="key" value="anchors_linked_from_fields"></string>
-                 <dictionary></dictionary>
-                 <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-udlContent exe-udlContent-engagement&quot;&gt;&lt;section class=&quot;exe-udlContent-block&quot;&gt;&lt;div class=&quot;exe-udlContent-content&quot;&gt;&lt;div class=&quot;exe-udlContent-content-main&quot;&gt;&lt;p&gt;Existen diversas opciones para abordar los problemas que se presentan en&amp;nbsp;la ciencia y la construcción de nuevos conocimientos científicos. Estos son:&lt;br&gt;■ Método sintético: busca reconstruir un acontecimiento de manera resumida, valiéndose de los&amp;nbsp;diferentes elementos fundamentales que estuvieron presentes en&amp;nbsp;el desarrollo del acontecimiento.&lt;br&gt;■ Método inductivo: lleva a conclusiones generales a partir de&amp;nbsp;casos individuales.&lt;br&gt;■ Método deductivo: va desde&amp;nbsp;un razonamiento general y lógico, basado en leyes o principios, hasta un hecho concreto.&lt;br&gt;■ Método analítico: consiste en&amp;nbsp;la separación de un todo descomponiéndose en sus partes o&amp;nbsp;elementos para observar las causas, naturaleza y los efectos.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;/div&gt;"></unicode>
-                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                 <int value="4"></int>
-                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                 <int value="2"></int>
-                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                 <int value="3"></int>
-                 <string role="key" value="htmlTag"></string>
-                 <string value="div"></string>
-                 <string role="key" value="images"></string>
-                 <instance class="exe.engine.galleryidevice.GalleryImages">
-                  <dictionary>
-                   <string role="key" value=".listitems"></string>
-                   <list></list>
-                   <string role="key" value="idevice"></string>
-                   <reference key="12"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="intlinks_to_anchors"></string>
-                 <dictionary></dictionary>
-                 <string role="key" value="nextImageId"></string>
-                 <int value="0"></int>
-                 <string role="key" value="parentNode"></string>
-                 <reference key="8"></reference>
-                </dictionary>
-               </instance>
-              </list>
-              <string role="key" value="icon"></string>
-              <unicode value=""></unicode>
-              <string role="key" value="id"></string>
-              <unicode value="12"></unicode>
-              <string role="key" value="ideviceCategory"></string>
-              <unicode value="Text and Tasks"></unicode>
-              <string role="key" value="lastIdevice"></string>
-              <bool value="0"></bool>
-              <string role="key" value="nextFieldId"></string>
-              <int value="3"></int>
-              <string role="key" value="originalicon"></string>
-              <string value=""></string>
-              <string role="key" value="parentNode"></string>
-              <reference key="8"></reference>
-              <string role="key" value="systemResources"></string>
-              <list></list>
-              <string role="key" value="undo"></string>
-              <bool value="1"></bool>
-              <string role="key" value="userResources"></string>
-              <list></list>
-              <string role="key" value="version"></string>
-              <int value="0"></int>
-             </dictionary>
-            </instance>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="13">
-             <dictionary>
-              <string role="key" value="_title"></string>
-              <unicode value="Importante"></unicode>
-              <string role="key" value="_attributes"></string>
-              <list>
-               <tuple>
-                <string value="title"></string>
-                <list>
-                 <string value="Title"></string>
-                 <int value="0"></int>
-                 <int value="0"></int>
-                </list>
-               </tuple>
-               <tuple>
-                <string value="category"></string>
-                <list>
-                 <string value="Category"></string>
-                 <int value="0"></int>
-                 <int value="1"></int>
-                </list>
-               </tuple>
-               <tuple>
-                <string value="css-class"></string>
-                <list>
-                 <string value="CSS class"></string>
-                 <int value="0"></int>
-                 <int value="2"></int>
-                </list>
-               </tuple>
-               <tuple>
-                <string value="icon"></string>
-                <list>
-                 <string value="Icon"></string>
-                 <int value="0"></int>
-                 <int value="3"></int>
-                </list>
-               </tuple>
-              </list>
-              <string role="key" value="_author"></string>
-              <string value=""></string>
-              <string role="key" value="_iDeviceDir"></string>
-              <string value="udl-content"></string>
-              <string role="key" value="_purpose"></string>
-              <string value=""></string>
-              <string role="key" value="_tip"></string>
-              <string value=""></string>
-              <string role="key" value="_typeName"></string>
-              <unicode value="UDL Content"></unicode>
-              <string role="key" value="_valid"></string>
-              <bool value="1"></bool>
-              <string role="key" value="class_"></string>
-              <unicode value="UDLcontent"></unicode>
-              <string role="key" value="edit"></string>
-              <bool value="0"></bool>
-              <string role="key" value="emphasis"></string>
-              <int value="1"></int>
-              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
-              <int value="1"></int>
-              <string role="key" value="fields"></string>
-              <list>
-               <instance class="exe.engine.field.TextAreaField" reference="14">
-                <dictionary>
-                 <string role="key" value="_id"></string>
-                 <unicode value="138_2"></unicode>
-                 <string role="key" value="_idevice"></string>
-                 <reference key="13"></reference>
-                 <string role="key" value="_instruc"></string>
-                 <string value=""></string>
-                 <string role="key" value="_name"></string>
-                 <string value=""></string>
-                 <string role="key" value="anchor_names"></string>
-                 <list></list>
-                 <string role="key" value="anchors_linked_from_fields"></string>
-                 <dictionary></dictionary>
-                 <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-udlContent exe-udlContent-expression&quot;&gt;&lt;section class=&quot;exe-udlContent-block&quot;&gt;&lt;div class=&quot;exe-udlContent-content&quot;&gt;&lt;div class=&quot;exe-udlContent-content-main&quot;&gt;&lt;p&gt;El&amp;nbsp;método científico&amp;nbsp;consiste en un proceso donde se emplea:&lt;br&gt;■ Observación: se define el fenómeno natural desde la realidad y&amp;nbsp;de manera objetiva.&lt;br&gt;■ Planteamiento del problema:&amp;nbsp;se identifica y formula claramente la pregunta a resolver.&lt;br&gt;■ Hipótesis: se establecen suposiciones para tratar de explicar&amp;nbsp;la causa del fenómeno natural.&lt;br&gt;■ Experimentación: Se diseña&amp;nbsp;un experimento, se realiza y se&amp;nbsp;anotan los resultados con la finalidad de confirmar, descartar&lt;br&gt;o reformular la hipótesis.&lt;br&gt;■ Análisis: se debe examinar y&amp;nbsp;evaluarlos datos recopilados, de&amp;nbsp;manera efectiva.&lt;br&gt;■ Conclusión: se presentan los&amp;nbsp;resultados a la comunidad científica y al público en general.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;/div&gt;"></unicode>
-                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                 <int value="4"></int>
-                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                 <int value="2"></int>
-                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                 <int value="3"></int>
-                 <string role="key" value="htmlTag"></string>
-                 <string value="div"></string>
-                 <string role="key" value="images"></string>
-                 <instance class="exe.engine.galleryidevice.GalleryImages">
-                  <dictionary>
-                   <string role="key" value=".listitems"></string>
-                   <list></list>
-                   <string role="key" value="idevice"></string>
-                   <reference key="14"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="intlinks_to_anchors"></string>
-                 <dictionary></dictionary>
-                 <string role="key" value="nextImageId"></string>
-                 <int value="0"></int>
-                 <string role="key" value="parentNode"></string>
-                 <reference key="8"></reference>
-                </dictionary>
-               </instance>
-              </list>
-              <string role="key" value="icon"></string>
-              <unicode value=""></unicode>
-              <string role="key" value="id"></string>
-              <unicode value="13"></unicode>
-              <string role="key" value="ideviceCategory"></string>
-              <unicode value="Text and Tasks"></unicode>
-              <string role="key" value="lastIdevice"></string>
-              <bool value="0"></bool>
-              <string role="key" value="nextFieldId"></string>
-              <int value="3"></int>
-              <string role="key" value="originalicon"></string>
-              <string value=""></string>
-              <string role="key" value="parentNode"></string>
-              <reference key="8"></reference>
-              <string role="key" value="systemResources"></string>
-              <list></list>
-              <string role="key" value="undo"></string>
-              <bool value="1"></bool>
-              <string role="key" value="userResources"></string>
-              <list></list>
-              <string role="key" value="version"></string>
-              <int value="0"></int>
-             </dictionary>
-            </instance>
-            <instance class="exe.engine.genericidevice.GenericIdevice" reference="15">
+            <instance class="exe.engine.genericidevice.GenericIdevice" reference="12">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Activity"></unicode>
@@ -742,12 +510,12 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <int value="11"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="16">
+               <instance class="exe.engine.field.TextAreaField" reference="13">
                 <dictionary>
                  <string role="key" value="_id"></string>
-                 <unicode value="139_2"></unicode>
+                 <unicode value="153_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="15"></reference>
+                 <reference key="12"></reference>
                  <string role="key" value="_instruc"></string>
                  <unicode value="Describe the tasks the learners should complete."></unicode>
                  <string role="key" value="_name"></string>
@@ -757,7 +525,9 @@ that may help or hinder the learner in the performance of the task."></unicode>
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;p&gt;Construye una definición de las disciplinas: Física, Química, Biología, Astronomía y menciona algunas profesiones relacionadas a ellas. Incluye además algunas ramas más actualizadas de las Ciencias Naturales.&lt;br /&gt;● Replica el experimento de la figura 2. Anota en tu cuaderno y desglosa la información obtenida al realizar los pasos del método científico.&lt;/p&gt;"></unicode>
+                 <unicode content="true" value="&lt;p&gt;Construye una definición de las disciplinas:&lt;/p&gt;
+&lt;p&gt;Física,&lt;br /&gt;Química,&lt;br /&gt;Biología,&lt;br /&gt;Astronomía&lt;/p&gt;
+&lt;p&gt;y menciona algunas profesiones relacionadas a ellas. Incluye además algunas ramas más actualizadas de las Ciencias Naturales.&lt;br /&gt;● Replica algun experimento de internet. Anota en tu cuaderno y desglosa la información obtenida al realizar los pasos del método científico.&lt;/p&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -772,7 +542,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                    <string role="key" value=".listitems"></string>
                    <list></list>
                    <string role="key" value="idevice"></string>
-                   <reference key="16"></reference>
+                   <reference key="13"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -787,7 +557,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <string role="key" value="icon"></string>
               <unicode value="activity"></unicode>
               <string role="key" value="id"></string>
-              <unicode value="14"></unicode>
+              <unicode value="16"></unicode>
               <string role="key" value="lastIdevice"></string>
               <bool value="0"></bool>
               <string role="key" value="nextFieldId"></string>
@@ -829,12 +599,410 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="25">
+         <instance class="exe.engine.node.Node" reference="16">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Tema 2: Modelos, principios, leyes y teorías científicas"></unicode>
            <string role="key" value="idevices"></string>
-           <list></list>
+           <list>
+            <instance class="exe.engine.genericidevice.GenericIdevice" reference="14">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Preknowledge"></unicode>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_purpose"></string>
+              <unicode value="Prerequisite knowledge refers to the knowledge learners should already
+have in order to be able to effectively complete the learning. Examples of
+pre-knowledge can be: &lt;ul&gt;
+&lt;li&gt;        Learners must have level 4 English &lt;/li&gt;
+&lt;li&gt;        Learners must be able to assemble standard power tools &lt;/li&gt;&lt;/ul&gt;
+"></unicode>
+              <string role="key" value="_tip"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Preknowledge"></unicode>
+              <string role="key" value="class_"></string>
+              <unicode value="preknowledge"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.genericidevice.GenericIdevice.persistenceVersion"></string>
+              <int value="11"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="15">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="155_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="14"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <unicode value="Describe the prerequisite knowledge learners should have to effectively
+complete this learning."></unicode>
+                 <string role="key" value="_name"></string>
+                 <unicode value="Preknowledge"></unicode>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;¿Conoces algún modelo, principio ley o teoría de las ciencias físicas? &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;¿Crees que son importantes para generar conocimiento científico? &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;¿Por qué?&lt;/span&gt;&lt;/p&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list></list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="15"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="0"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="16"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value="preknowledge"></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="18"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <unicode value="preknowledge"></unicode>
+              <string role="key" value="parentNode"></string>
+              <reference key="16"></reference>
+              <string role="key" value="systemResources"></string>
+              <list>
+               <string value="common.js"></string>
+              </list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="17">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="18">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="17"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;figure class=&quot;exe-figure exe-image float-right license-custom&quot; style=&quot;width: 243px; text-align: center;&quot;&gt;&lt;img src=&quot;resources/3.2.1_modelos.png&quot; alt=&quot;&quot; width=&quot;243&quot; height=&quot;339&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;em&gt;Figura 1 Modelos sistema solar.&lt;/em&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Los científicos utilizan modelos, principios, y leyes para describir y explicar la realidad. Todos estos elementos se construyen sobre la base del razonamiento lógico y se busca refutarlos mediante la experimentación y la observación para luego sustituirlos por modelos, principios, y leyes que expliquen mejor la naturaleza.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;Modelos&lt;/strong&gt;&lt;br /&gt;Son esquemas o representaciones de eventos, ideas, procesos y objetos reales que elaboran los científicos para reproducir un aspecto de la realidad que les interese estudiar; integran en él los factores más relevantes del fenómeno bajo estudio. El valor de un modelo científico se encuentra estrechamente relacionado con la medida en que los resultados que predice concuerden con las observaciones del fenómeno real. Estos modelos pueden ser constantemente mejorados en la medida en que se encuentren e incorporen nuevas observaciones.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;Los modelos cumplen dos funciones principales en el avance de la ciencia:&lt;/strong&gt; &lt;br /&gt;■ Simplificar sistemas y fenómenos para concentrar la atención sobre las situaciones de mayor interés.&lt;br /&gt;■ Estimular la investigación a través de la visualización de sistemas y fenómenos.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;En la actualidad, el uso de computadoras agiliza la modelización de un fenómeno, además de su evaluación y actualización.&lt;/p&gt;
+&lt;figure class=&quot;exe-figure exe-image float-left license-custom&quot; style=&quot;width: 238px; text-align: center;&quot;&gt;&lt;img src=&quot;resources/3.2.2_principios.png&quot; alt=&quot;&quot; width=&quot;269&quot; height=&quot;201&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;em&gt;Figura 2 Principio atomico&lt;/em&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;Principios&lt;/strong&gt;&lt;br /&gt;Son generalizaciones científicas utilizadas para entender, corroborar o actualizar el conocimiento. Este proceso se emplea con la finalidad de obtener información relevante y confiable. Desde sus inicios, en las ciencias físicas existen numerosos principios; algunos han mantenido su vigencia a lo largo de los años, mientras otros ya han sido derogados.&lt;br /&gt;Un ejemplo de los principios que se divulgan al generar nuevo conocimiento científico hace referencia al modelo atómico de Bohr, quien tuvo que postular algunos principios para describir su modelo (se estudiarán en otra unidad) que se resumen en la figura 2&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br style=&quot;clear: both;&quot; /&gt;&lt;strong&gt;Leyes y teorías&lt;/strong&gt;&lt;br /&gt;Una ley presenta una construcción basada en la experiencia, cuyo carácter es provisional y limitado a pesar ser producto de rigurosos experimentos. Un ejemplo es la ley de la conservación de la energía que establece que &quot;la energía no se crea ni se destruye, sólo se transforma&quot;.&lt;br /&gt;La ley es una teoría que ha demostrado ser verdadera. Por ejemplo, la tercera ley de Newton establece que cada vez que un objeto empuja o tira &lt;br /&gt;de otro objeto, el segundo objeto empuja o tira con la misma cantidad de fuerza pero en la dirección opuesta. Esto quiere decir que las fuerzas &lt;br /&gt;siempre vienen en pares. Si ejerces una fuerza sobre un objeto, ese objeto ejerce una fuerza del mismo tamaño sobre ti, pero en la dirección opuesta.&lt;br /&gt;Por su parte, las teorías se definen como un conjunto de hipótesis que han sido verificadas junto a otras leyes, conceptos y definiciones. Son &lt;br /&gt;una explicación general a un conjunto de fenómenos. Las teorías se construyen a través de mecanismos que siguen patrones sobre algún área del mundo que nos interesa. Por ejemplo, en los años 450 a.C., Leucipo propuso la teoría atómica de la materia, que explicaba que la materia está compuesta por partículas a las que llamó átomos. &lt;br /&gt;Dijo que son eternos, indivisibles, homogéneos, incompresibles e invisibles y que se diferencian en su forma y tamaño alterando las propiedades &lt;br /&gt;de la materia, ya que estas varían según el agrupamiento de los átomos. Treinta años más tarde, Demócrito continuó con esta teoría.&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="259"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="19_85.2"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="19">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="17"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="3.2.1_modelos.png"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpscngyx\\3.2.1_modelos.png"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="80e66c8d5bd096d5f44af6a79aeaf01d"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="18"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="260"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="19_85.3"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="20">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="17"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="3.2.2_principios.png"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpscngyx\\3.2.2_principios.png"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="cdf326a6e67783eb9fd78b96eafd0ae4"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="18"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                  </list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="18"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="4"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="16"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="19"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="16"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list>
+               <reference key="19"></reference>
+               <reference key="20"></reference>
+              </list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.genericidevice.GenericIdevice" reference="21">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Activity"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="An activity can be defined as a task or set of tasks a learner must
+complete. Provide a clear statement of the task and consider any conditions
+that may help or hinder the learner in the performance of the task."></unicode>
+              <string role="key" value="_tip"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Activity"></unicode>
+              <string role="key" value="class_"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.genericidevice.GenericIdevice.persistenceVersion"></string>
+              <int value="11"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="22">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="157_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="21"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <unicode value="Describe the tasks the learners should complete."></unicode>
+                 <string role="key" value="_name"></string>
+                 <unicode value="Activity"></unicode>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;p&gt;Contesta en tu &lt;strong&gt;cuaderno&lt;/strong&gt;, luego pasalo a una &lt;strong&gt;hoja blanca para entregar&lt;/strong&gt; al maestro:&lt;/p&gt;
+&lt;p&gt;1- &lt;strong&gt;Explica&lt;/strong&gt; una semejanza y una diferencia entre:&lt;br /&gt;●Modelo:&lt;br /&gt;●Ley&lt;br /&gt;●Teoría.&lt;/p&gt;
+&lt;p&gt;2- Menciona dos instituciones de la República Dominicana que utilicen modelos de predicción de fenómenos.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Responde&lt;/strong&gt;: ¿Qué eventos predicen? ¿Por qué es importante conocer esos pronósticos?&lt;/p&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list></list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="22"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="0"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="16"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="20"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="parentNode"></string>
+              <reference key="16"></reference>
+              <string role="key" value="systemResources"></string>
+              <list>
+               <string value="common.js"></string>
+              </list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
            <string role="key" value="_id"></string>
            <unicode value="2"></unicode>
            <string role="key" value="_package"></string>
@@ -855,12 +1023,408 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="28">
+         <instance class="exe.engine.node.Node" reference="25">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Tema 3: Estándares, magnitudes y unidades"></unicode>
            <string role="key" value="idevices"></string>
-           <list></list>
+           <list>
+            <instance class="exe.engine.genericidevice.GenericIdevice" reference="23">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Preknowledge"></unicode>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_purpose"></string>
+              <unicode value="Prerequisite knowledge refers to the knowledge learners should already
+have in order to be able to effectively complete the learning. Examples of
+pre-knowledge can be: &lt;ul&gt;
+&lt;li&gt;        Learners must have level 4 English &lt;/li&gt;
+&lt;li&gt;        Learners must be able to assemble standard power tools &lt;/li&gt;&lt;/ul&gt;
+"></unicode>
+              <string role="key" value="_tip"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Preknowledge"></unicode>
+              <string role="key" value="class_"></string>
+              <unicode value="preknowledge"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.genericidevice.GenericIdevice.persistenceVersion"></string>
+              <int value="11"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="24">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="158_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="23"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <unicode value="Describe the prerequisite knowledge learners should have to effectively
+complete this learning."></unicode>
+                 <string role="key" value="_name"></string>
+                 <unicode value="Preknowledge"></unicode>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;p&gt;Qué estándares se utilizan para medir las propiedades de la materia?&lt;/p&gt;
+&lt;p&gt;¿Cuál es el sistema de medidas más utilizado?&lt;/p&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list></list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="24"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="0"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="25"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value="preknowledge"></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="21"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <unicode value="preknowledge"></unicode>
+              <string role="key" value="parentNode"></string>
+              <reference key="25"></reference>
+              <string role="key" value="systemResources"></string>
+              <list>
+               <string value="common.js"></string>
+              </list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="26">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="27">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="26"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;figure class=&quot;exe-figure exe-image float-right license-custom&quot; style=&quot;width: 413px; text-align: center;&quot;&gt;&lt;img src=&quot;resources/3.3.1_sistema_int.png&quot; alt=&quot;&quot; width=&quot;469&quot; height=&quot;227&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;tabla del sistema internacional&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;El &lt;strong&gt;sistema métrico&lt;/strong&gt; es la organización de unidades empleada por los científicos del mundo y que desde 1960 se le conoce como sistema internacional con su abreviatura SI. Su versión actual presenta siete magnitudes fundamentales: masa, longitud, tiempo, corriente eléctrica, temperatura, intensidad luminosa y cantidad de sustancia, todas las demás son derivadas, como volumen, densidad y fuerza, entre otros.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;Estándares, magnitudes y unidades&lt;/strong&gt;&lt;br /&gt;En metrología (la ciencia de la medición), un estándar (o etalón) es un objeto, sistema o experimento que tiene una relación definida con una unidad de medida de una cantidad física. Las magnitudes representan cualquier característica de la materia o de cambios que experimenta y que se pueden medir. Pueden ser:&lt;br /&gt;■ Escalares: definidas por un número y una unidad de medida. Por ejemplo: masa y temperatura.&lt;br /&gt;■ Vectoriales: además de presentar número y unidad de medida requieren ser representadas con la dirección, el sentido que tiene, en un &lt;br /&gt;sistema de coordenadas específico. Por ejemplo: fuerza y aceleración.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br /&gt;&lt;strong&gt;Magnitudes fundamentales del SI&lt;/strong&gt;&lt;br /&gt;Son aquellas que la comunidad científica ha seleccionado como base y no deben ser definidas en función de otras magnitudes. En la tabla anterior se encuentran detalladas. Se representan a partir de estas unidades y permiten realizar la conversión a unas mayores o menores de las mismas cantidades, ya que en este sistema la relación se encuentra en múltiplos de 10.&lt;/p&gt;
+&lt;figure class=&quot;exe-figure exe-image float-left license-custom&quot; style=&quot;width: 241px; text-align: justify;&quot;&gt;&lt;img src=&quot;resources/3.3.2_magnitudes_derivadas.png&quot; alt=&quot;&quot; width=&quot;241&quot; height=&quot;232&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;a href=&quot;https://dummyimage.com/&quot; target=&quot;_blank&quot; class=&quot;author&quot; rel=&quot;noopener&quot;&gt;Magnitudes derivadas.Image&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;La Conferencia General de Pesos y Medidas (CGPM), en su 26ª reunión, define las unidades fundamentales así:&lt;br /&gt;■ &lt;strong&gt;Segundo (s)&lt;/strong&gt;: unidad de tiempo. Se define tomando el valor numérico fijo de la frecuencia de cesio ΔνCs como 9,192,631,770 cuando se expresa en la unidad Hz, que es igual a &lt;span style=&quot;font-size: 12pt;&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;font-size: 8pt;&quot;&gt;&lt;sup&gt;–1&lt;/sup&gt; &lt;/span&gt;.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;■ &lt;strong&gt;Metro (m)&lt;/strong&gt;: unidad de longitud. Se define tomando el valor numérico fijo de la velocidad de la luz en el vacío c como 299,792,458 m/s.&lt;br /&gt;■ &lt;strong&gt;Kilogramo (kg)&lt;/strong&gt;: unidad de masa. Se define tomando el valor numérico fijo de la constante de Planck h como 6.62607015 × 10 &lt;sup&gt;–34&lt;/sup&gt; unidad J/s.&lt;br /&gt;■ &lt;strong&gt;Amperio (A)&lt;/strong&gt;: unidad de corriente eléctrica. Se define tomando el valor numérico fijo de la carga elemental e como 1.602176634 × 10 &lt;sup&gt;–19&lt;/sup&gt; C.&lt;br /&gt;■ &lt;strong&gt;Kelvin (K)&lt;/strong&gt;: unidad de temperatura termodinámica. Se define tomando el valor numérico fijo de la constante k de Boltzmann como 1.380649 × 10&lt;sup&gt;–23&lt;/sup&gt; JK &lt;sup&gt;–1&lt;/sup&gt;.&lt;br /&gt;■ &lt;strong&gt;Mol (mol)&lt;/strong&gt;: unidad de cantidad de sustancia. Un mol contiene exactamente 6.02214076 × 1023 entidades elementales y se denomina número de Avogadro.&lt;br /&gt;■ &lt;strong&gt;Candela (cd)&lt;/strong&gt;: unidad de intensidad luminosa en una dirección dada. Se define tomando el valor numérico fijo de la eficacia luminosa de &lt;br /&gt;la radiación monocromática de frecuencia 540 × 10&lt;sup&gt;12&lt;/sup&gt; Hz, K&lt;sub&gt;cd&lt;/sub&gt;, como 683.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Hasta ahora hemos utilizado el sistema internacional (SI); sin embargo existen otros sistemas de unidades: sistema métrico decimal (SMD), sistema cegesimal (CGS), sistema MKS, sistema natural, sistema técnico y sistema inglés.&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="261"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="22_85.2"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="28">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="26"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="3.3.1_sistema_int.png"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpscngyx\\3.3.1_sistema_int.png"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="b3c6e2a67476d9fff95d525615ae7903"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="27"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="262"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="22_85.3"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="29">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="26"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="3.3.2_magnitudes_derivadas.png"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpscngyx\\3.3.2_magnitudes_derivadas.png"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="af654c2189b4b7edbe50413af47e04d8"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="27"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                  </list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="27"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="4"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="25"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="22"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="25"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list>
+               <reference key="28"></reference>
+               <reference key="29"></reference>
+              </list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.genericidevice.GenericIdevice" reference="30">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Activity"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="An activity can be defined as a task or set of tasks a learner must
+complete. Provide a clear statement of the task and consider any conditions
+that may help or hinder the learner in the performance of the task."></unicode>
+              <string role="key" value="_tip"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Activity"></unicode>
+              <string role="key" value="class_"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.genericidevice.GenericIdevice.persistenceVersion"></string>
+              <int value="11"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="31">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="160_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="30"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <unicode value="Describe the tasks the learners should complete."></unicode>
+                 <string role="key" value="_name"></string>
+                 <unicode value="Activity"></unicode>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;p&gt;&lt;strong&gt; ● Define y clasifica las magnitudes como escalares o vectoriales, según sea el caso:&lt;/strong&gt; &lt;br /&gt;- Densidad &lt;br /&gt;- Tiempo&lt;br /&gt;- Velocidad&lt;br /&gt;- Longitud&lt;br /&gt;&lt;strong&gt;● Razona si las unidades expresan la medida con exactitud:&lt;/strong&gt;&lt;br /&gt;- El auto recorre 200 m.&lt;br /&gt;- La velocidad con la que circula un ciclista es de 10 km.&lt;br /&gt;- La densidad del agua es 1 g/ml. &lt;br /&gt;- Arturo corrió sin parar durante 45 segundos.&lt;/p&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list></list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="31"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="0"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="25"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="23"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="parentNode"></string>
+              <reference key="25"></reference>
+              <string role="key" value="systemResources"></string>
+              <list>
+               <string value="common.js"></string>
+              </list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
            <string role="key" value="_id"></string>
            <unicode value="4"></unicode>
            <string role="key" value="_package"></string>
@@ -881,12 +1445,643 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="27">
+         <instance class="exe.engine.node.Node" reference="34">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Tema 4: Sistema de conversiones"></unicode>
            <string role="key" value="idevices"></string>
-           <list></list>
+           <list>
+            <instance class="exe.engine.genericidevice.GenericIdevice" reference="32">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Preknowledge"></unicode>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_purpose"></string>
+              <unicode value="Prerequisite knowledge refers to the knowledge learners should already
+have in order to be able to effectively complete the learning. Examples of
+pre-knowledge can be: &lt;ul&gt;
+&lt;li&gt;        Learners must have level 4 English &lt;/li&gt;
+&lt;li&gt;        Learners must be able to assemble standard power tools &lt;/li&gt;&lt;/ul&gt;
+"></unicode>
+              <string role="key" value="_tip"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Preknowledge"></unicode>
+              <string role="key" value="class_"></string>
+              <unicode value="preknowledge"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.genericidevice.GenericIdevice.persistenceVersion"></string>
+              <int value="11"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="33">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="161_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="32"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <unicode value="Describe the prerequisite knowledge learners should have to effectively
+complete this learning."></unicode>
+                 <string role="key" value="_name"></string>
+                 <unicode value="Preknowledge"></unicode>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;p&gt;¿Has utilizado algún tipo de medida?&lt;/p&gt;
+&lt;p&gt;¿Puedes medir la longitud de un cristal de sal utilizando una regla en pulgadas?&lt;/p&gt;
+&lt;p&gt;¿Cómo lo harías?&lt;/p&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list></list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="33"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="0"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="34"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value="preknowledge"></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="24"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <unicode value="preknowledge"></unicode>
+              <string role="key" value="parentNode"></string>
+              <reference key="34"></reference>
+              <string role="key" value="systemResources"></string>
+              <list>
+               <string value="common.js"></string>
+              </list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="35">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="36">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="35"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p style=&quot;text-align: justify;&quot;&gt;La conversión de unidades es la transformación del valor numérico de una magnitud física, expresado en una cierta unidad de medida, en otro valor numérico equivalente y expresado en otra unidad de medida de la misma naturaleza.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;Múltiplos y submúltiplos&lt;/strong&gt;&lt;br /&gt;No siempre es posible utilizar las unidades para determinar el valor de un parámetro. Por ejemplo, es difícil medir el tamaño de una hormiga &lt;br /&gt;utilizando el metro. Es por eso que los prefijos de las unidades se utilizan para facilitar la escritura cuando se encuentran expresadas en valores &lt;br /&gt;muy grandes o muy pequeños. Los múltiplos de las unidades se asignan con letras griegas.&lt;/p&gt;
+&lt;div class=&quot;exe-layout-2-cols exe-layout-2-50-50 exe-clear&quot; style=&quot;text-align: justify;&quot;&gt;
+&lt;div class=&quot;exe-col exe-col-1&quot;&gt;
+&lt;figure class=&quot;exe-figure exe-image position-center license-custom&quot; style=&quot;width: 259px;&quot;&gt;&lt;img src=&quot;resources/3.4.1_multiplos.png&quot; alt=&quot;&quot; width=&quot;259&quot; height=&quot;293&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;Multiplos&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;div class=&quot;exe-col exe-col-2&quot;&gt;
+&lt;figure class=&quot;exe-figure exe-image position-center license-custom&quot; style=&quot;width: 258px;&quot;&gt;&lt;img src=&quot;resources/3.4.2_submultiplos.png&quot; alt=&quot;&quot; width=&quot;258&quot; height=&quot;289&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;a href=&quot;https://dummyimage.com/&quot; target=&quot;_blank&quot; class=&quot;author&quot; rel=&quot;noopener&quot;&gt;Sub multiplos&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;Notación científica&lt;/strong&gt;&lt;br /&gt;Consiste en escribir una cifra entera, entre 1 y 9, seguida de una potencia de base 10, la cual lleva un exponente que puede ser positivo o negativo &lt;br /&gt;e indica la cantidad de ceros que recorre hasta hacer una cifra entera. Cuando el exponente es positivo, el resultado es 1, acompañado de tantos &lt;br /&gt;ceros como indique la potencia. &lt;br /&gt;10&lt;sup&gt;3  &lt;/sup&gt;=1000 (ecuación 1) Así, 10&lt;sup&gt;3&lt;/sup&gt; equivale a 1,000.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Si por el contrario el exponente es negativo, equivale a dividir el número 1 entre 10 elevado a la potencia de ese mismo número. Se representa de &lt;br /&gt;la siguiente manera:&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;10&lt;sup&gt;-3&lt;/sup&gt;= &lt;img alt=&quot;&quot; src=&quot;resources/eXe_LaTeX_math_1.gif&quot; width=&quot;37&quot; height=&quot;31&quot; style=&quot;text-align: center; font-size: 15.96px;&quot; /&gt; = 0.001   (ecuación 2) Entonces, 10-3 equivale a 0.001.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Por ejemplo, la distancia de la Tierra al Sol es de 150,000,000 km. Si expresamos esta cifra en notación científica, el decimal debe correrse &lt;br /&gt;ocho espacios hacia la izquierda. Por lo tanto, en notación científica es 1.5x10&lt;sup&gt;8 &lt;/sup&gt;km.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;El átomo de hidrógeno (H) tiene un diámetro de alrededor de 0.00000005 mm (milímetros). Al expresar esta cantidad en notación científica, el &lt;br /&gt;decimal debe correrse ocho espacios hacia la derecha. Así, su notación científica es 5x10&lt;sup&gt;-8&lt;/sup&gt; mm.&lt;/p&gt;
+&lt;figure class=&quot;exe-figure exe-image float-left license-custom&quot; style=&quot;width: 253px; text-align: justify;&quot;&gt;&lt;img src=&quot;resources/3.4.3_conversion_minutos.png&quot; alt=&quot;&quot; width=&quot;253&quot; height=&quot;367&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;a href=&quot;https://dummyimage.com/&quot; target=&quot;_blank&quot; class=&quot;author&quot; rel=&quot;noopener&quot;&gt;Tabla de cnvertir&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;Conversión de unidades&lt;/strong&gt;&lt;br /&gt;La conversión de unidades hace referencia al cambio de medida de un sistema a otro para una cantidad específica, siempre y cuando pertenezcan a la misma magnitud. Es decir, que la conversión sea de unidad masa a unidad de masa, o de unidad de tiempo a unidad de tiempo. &lt;br /&gt;Realizar una conversión se hace necesario cuando las unidades no se encuentran en el sistema deseado, como SI o cuando se solicita expresamente que los resultados deben ir en unidades específicas y estas son diferentes a los datos proporcionados.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Para realizar una conversión existen dos métodos:&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br /&gt;&lt;strong&gt;Regla de tres:&lt;/strong&gt; Para ello se han establecido equivalencias que sirven como guía. Por ejemplo, en 1 minuto hay 60 segundos y en función de esa premisa determinar el valor deseado. Otros ejemplos de equivalencias corresponden a la tabla&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;/p&gt;
+&lt;figure class=&quot;exe-figure exe-image float-left license-custom&quot; style=&quot;width: 1005px;&quot;&gt;&lt;img src=&quot;resources/3.4.4_conversion_2.png&quot; alt=&quot;&quot; width=&quot;1005&quot; height=&quot;178&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;/figcaption&gt;
+&lt;figure class=&quot;exe-figure exe-image float-right license-custom&quot; style=&quot;width: 300px; text-align: justify;&quot;&gt;&lt;img src=&quot;resources/3.4.5_conversion_3.png&quot; width=&quot;259&quot; height=&quot;267&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;Tomando en cuenta las referencias de algunas equivalencias, podemos calcular la masa de 30 kg en lb:&lt;/p&gt;
+&lt;p&gt;Recuerda que la Notación científica: es la Abreviación al &lt;span style=&quot;font-size: 15.96px;&quot;&gt;representar números muy grandes o pequeños de una manera &lt;/span&gt;&lt;span style=&quot;font-size: 15.96px;&quot;&gt;más concisa y manejable. En la &lt;/span&gt;matemática que se utiliza para notación científica, un número se expresa como el producto de dos factores: una parte decimal entre 1 y 10 (llamada coeficiente) y una potencia de 10 que indica la escala del número.&lt;/p&gt;
+&lt;/figure&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="263"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="25_85.7"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="37">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="35"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="3.4.1_multiplos.png"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpscngyx\\3.4.1_multiplos.png"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="4ff7f229603bdc8a5aae7f5b69d5b847"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="36"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="264"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="25_85.8"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="38">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="35"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="3.4.2_submultiplos.png"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpscngyx\\3.4.2_submultiplos.png"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="930217b86feb7934cbc7a5c7ef523097"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="36"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="265"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="25_85.9"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="39">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="35"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="3.4.3_conversion_minutos.png"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpscngyx\\3.4.3_conversion_minutos.png"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="778bc1a90d310e543586b4a0d82c8ad8"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="36"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="266"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="25_85.10"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="40">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="35"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="3.4.4_conversion_2.png"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpscngyx\\3.4.4_conversion_2.png"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="731494f8df7e37d8d6f5927dcf5db4ab"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="36"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="267"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="25_85.11"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="41">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="35"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="3.4.5_conversion_3.png"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpscngyx\\3.4.5_conversion_3.png"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="9af7aa3542a25d5b1b252c074e9bf0b4"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="36"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="268"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="25_85.12"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="42">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="35"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="eXe_LaTeX_math_1.gif"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpscngyx\\eXe_LaTeX_math_1.gif"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="ca764707c66f9e6311c9312ec1191e08"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="36"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                  </list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="36"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="13"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="34"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="25"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="34"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list>
+               <reference key="37"></reference>
+               <reference key="38"></reference>
+               <reference key="39"></reference>
+               <reference key="40"></reference>
+               <reference key="41"></reference>
+               <reference key="42"></reference>
+              </list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.genericidevice.GenericIdevice" reference="43">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Activity"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="An activity can be defined as a task or set of tasks a learner must
+complete. Provide a clear statement of the task and consider any conditions
+that may help or hinder the learner in the performance of the task."></unicode>
+              <string role="key" value="_tip"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Activity"></unicode>
+              <string role="key" value="class_"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.genericidevice.GenericIdevice.persistenceVersion"></string>
+              <int value="11"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="44">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="164_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="43"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <unicode value="Describe the tasks the learners should complete."></unicode>
+                 <string role="key" value="_name"></string>
+                 <unicode value="Activity"></unicode>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;p&gt;● Elabora un cuadro como una de las tablas de la unidad, con equivalencias de volumen para litros, pinta y galón, tomando como referencia m&lt;sup&gt;3&lt;/sup&gt;&lt;br /&gt;● Convierte las siguientes unidades:&lt;br /&gt;A) 4 yd a m.             B) 2000 m&lt;sup&gt;2&lt;/sup&gt; a ha.&lt;/p&gt;
+&lt;p&gt;● Convierte 54,000 minutos en horas.&lt;br /&gt;● ¿A cuántos días son equivalentes 8 años?&lt;br /&gt;● Cuantas tareas son equivalentes a 12,500 m&lt;sup&gt;2&lt;/sup&gt;?&lt;/p&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list></list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="44"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="0"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="34"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="27"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="parentNode"></string>
+              <reference key="34"></reference>
+              <string role="key" value="systemResources"></string>
+              <list>
+               <string value="common.js"></string>
+              </list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
            <string role="key" value="_id"></string>
            <unicode value="3"></unicode>
            <string role="key" value="_package"></string>
@@ -907,12 +2102,521 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="29">
+         <instance class="exe.engine.node.Node" reference="47">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Tema 5: Errores"></unicode>
            <string role="key" value="idevices"></string>
-           <list></list>
+           <list>
+            <instance class="exe.engine.genericidevice.GenericIdevice" reference="45">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Preknowledge"></unicode>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_purpose"></string>
+              <unicode value="Prerequisite knowledge refers to the knowledge learners should already
+have in order to be able to effectively complete the learning. Examples of
+pre-knowledge can be: &lt;ul&gt;
+&lt;li&gt;        Learners must have level 4 English &lt;/li&gt;
+&lt;li&gt;        Learners must be able to assemble standard power tools &lt;/li&gt;&lt;/ul&gt;
+"></unicode>
+              <string role="key" value="_tip"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Preknowledge"></unicode>
+              <string role="key" value="class_"></string>
+              <unicode value="preknowledge"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.genericidevice.GenericIdevice.persistenceVersion"></string>
+              <int value="11"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="46">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="154_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="45"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <unicode value="Describe the prerequisite knowledge learners should have to effectively
+complete this learning."></unicode>
+                 <string role="key" value="_name"></string>
+                 <unicode value="Preknowledge"></unicode>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;p&gt;¿Conoces algún modelo, principio ley o teoría de las ciencias físicas? &lt;br /&gt;¿Crees que son importantes para generar conocimiento científico?    ¿Por qué?&lt;/p&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list></list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="46"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="0"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="47"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value="preknowledge"></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="17"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <unicode value="preknowledge"></unicode>
+              <string role="key" value="parentNode"></string>
+              <reference key="47"></reference>
+              <string role="key" value="systemResources"></string>
+              <list>
+               <string value="common.js"></string>
+              </list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="48">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="49">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="48"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;figure class=&quot;exe-figure exe-image float-right license-custom&quot; style=&quot;width: 265px;&quot;&gt;&lt;img src=&quot;resources/3.5.1_errores.png&quot; alt=&quot;&quot; width=&quot;265&quot; height=&quot;480&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Las ciencias físicas precisan realizar mediciones cuantitativas de las magnitudes, ya sea de manera directa (usando un aparato o instrumento) o indirecta (utilizando una fórmula). Sin embargo, las medidas nunca permiten obtener un valor «verdadero» de lo que se mide, y las razones más frecuentes son los errores en los equipos utilizados y el sentido de quien calcula. Debido a esto es común encontrar que en lugar de mencionar el término «verdadero» para un valor real, se utilice valor teórico (Vt), porque toda medida tiene un grado de incertidumbre, definido por algunos autores como «error».&lt;br /&gt;&lt;strong&gt;Errores&lt;/strong&gt;&lt;br /&gt;Pueden considerarse como las estimaciones o cuantificaciones de la incertidumbre de una medida, es decir, la diferencia entre un valor medido y un valor teórico. Mientras mayor sea el error calculado, más &lt;br /&gt;incierta será la medida.&lt;br /&gt;Una forma de minimizar los errores y tomar el valor más probablemente correcto consiste en realizar varias veces la misma medición (x), al obtener una serie, calcular la media aritmética (x̅) que se obtiene al realizar la sumatoria de medidas (x), y dividirlas entre el número de repeticiones (n).&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;resources/eXe_LaTeX_math_2.gif&quot; width=&quot;200&quot; height=&quot;24&quot; style=&quot;text-align: center; font-size: 15.96px;&quot; /&gt;  (ecuación 3)&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Tipos de errores&lt;/strong&gt;&lt;br /&gt;En las mediciones de las magnitudes físicas se presentan principalmente dos tipos de errores:&lt;br /&gt;Error absoluto. Resulta de la diferencia entre el valor teórico (o valor promedio) y el valor obtenido de cada medición (valor medido), como lo expresa la ecuación &lt;strong&gt;E&lt;sub&gt;a&lt;/sub&gt;=|x̅-x|&lt;/strong&gt; (ecuación 4).&lt;/p&gt;
+&lt;p&gt;Al restar la media aritmética de cualquier valor x&lt;sub&gt;i&lt;/sub&gt; , puede generar un resultado negativo, pero al aplicar el símbolo de valor absoluto siempre dará un resultado positivo. Es necesario aplicar esta fórmula para cada medida del problema propuesto, ya que cada una arrojará su propio error absoluto.&lt;br style=&quot;clear: both;&quot; /&gt;Cuando no es posible realizar varias mediciones, el error absoluto viene dado por la apreciación del instrumento de medición. La apreciación, &lt;br /&gt;también conocida como precisión de un instrumento, representa la menor medida exacta que se puede tomar con el instrumento. Se calcula tomando dos medidas, consecutivas o no, y dividiéndolas entre el número de divisiones que hay entre ellas.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Error relativo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Es el resultado de dividir el error absoluto (Ea) entre la media aritmética obtenida (x̅). El error relativo puede ser positivo o negativo, según sea el error absoluto, de allí el uso del símbolo ±. Se calcula con la ecuación &lt;strong&gt;(Error absoluto/media aritmetica) * 100 (ecuación 5).&lt;/strong&gt;&lt;br /&gt;Para la primera medida (3.05 s) del ejercicio de referencia, el error relativo se calcula: &lt;strong&gt;E&lt;sub&gt;r&lt;/sub&gt; = (Ea/ x̅). 100 % = (0.03 s/ 3.02 s) . 100 % = 0.99 %&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;(ecuación 6).&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;exe-layout-2-cols exe-layout-2-50-50 exe-clear&quot;&gt;
+&lt;div class=&quot;exe-col exe-col-1&quot;&gt;
+&lt;figure class=&quot;exe-figure exe-image position-center license-custom&quot; style=&quot;width: 262px;&quot;&gt;&lt;img src=&quot;resources/3.5.2_errores.png&quot; alt=&quot;&quot; width=&quot;262&quot; height=&quot;371&quot; /&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;div class=&quot;exe-col exe-col-2&quot;&gt;
+&lt;figure class=&quot;exe-figure exe-image position-center license-custom&quot; style=&quot;width: 266px;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;resources/3.5.3_errores.png&quot; alt=&quot;&quot; width=&quot;266&quot; height=&quot;282&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Para cada medición existe un porcentaje de error permitido; mientras más bajo sea el valor obtenido para este cálculo, más confiable será la medición. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;En este caso es 0.99 %, lo que se considera un error aceptable&lt;/strong&gt;&lt;/em&gt;.&lt;br /&gt;Las cifras significativas, son los dígitos en un número que contribuyen a su precisión o incertidumbre y representan la cantidad confiable en un &lt;br /&gt;valor numérico. Las reglas básicas para determinarlas son:&lt;br /&gt;■ Todos los dígitos no nulos (1-9) son siempre cifras significativas. Por ejemplo, en el número 345, hay tres cifras significativas.&lt;br /&gt;■ Los ceros situados entre dígitos diferentes de cero son cifras significativas. Por ejemplo, en el número 506, hay tres cifras significativas.&lt;br /&gt;■ Los ceros a la izquierda de la parte entera del número no son cifras significativas. Por ejemplo, en el número 0.05, hay solo una cifra significativa.&lt;br /&gt;■ Los ceros a la derecha de la parte decimal del número son cifras significativas si están respaldados por dígitos diferentes de cero. Por ejemplo, en el número 1.050, hay cuatro cifras significativas.&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="269"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="28_85.0"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="50">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="48"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="3.5.1_errores.png"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpzngkyw.eXe\\previews\\allyourbase\\3.5.1_errores.png"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="f3ff6a57d6174bdfaa76d8c417bf1cf5"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="49"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="270"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="28_85.1"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="51">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="48"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="eXe_LaTeX_math_2.gif"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpzngkyw.eXe\\previews\\eXe_LaTeX_math_2.gif"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="755b94b89fb4fcdb6607ad18191ca8a4"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="49"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="272"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="28_85.3"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="52">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="48"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="3.5.2_errores.png"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpzngkyw.eXe\\previews\\allyourbase\\3.5.2_errores.png"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="66e80f5384d6e60e29da39d5fe685531"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="49"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="273"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="28_85.4"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="53">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="48"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="1"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="3.5.3_errores.png"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\jeanpc~1\\appdata\\local\\temp\\tmpzngkyw.eXe\\previews\\allyourbase\\3.5.3_errores.png"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="ffdda0d33f31ef3d3ab28b71da60045f"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="49"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                  </list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="49"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="5"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="47"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="28"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="47"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list>
+               <reference key="50"></reference>
+               <reference key="51"></reference>
+               <reference key="52"></reference>
+               <reference key="53"></reference>
+              </list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.genericidevice.GenericIdevice" reference="54">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Activity"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="An activity can be defined as a task or set of tasks a learner must
+complete. Provide a clear statement of the task and consider any conditions
+that may help or hinder the learner in the performance of the task."></unicode>
+              <string role="key" value="_tip"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Activity"></unicode>
+              <string role="key" value="class_"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.genericidevice.GenericIdevice.persistenceVersion"></string>
+              <int value="11"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="55">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="128_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="54"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <unicode value="Describe the tasks the learners should complete."></unicode>
+                 <string role="key" value="_name"></string>
+                 <unicode value="Activity"></unicode>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;p&gt;● Tomando como referencia tres cuadernos del mismo tamaño, mide su longitud en cm con una regla; maneja las cifras significativas &lt;br /&gt;correspondientes en cada medida.&lt;/p&gt;
+&lt;p&gt;Calcula el error absoluto y el porcentaje de error relativo. Determina la precisión de la regla utilizada en la medición&lt;/p&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list></list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="55"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="0"></int>
+                 <string role="key" value="parentNode"></string>
+                 <none></none>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="29"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <unicode value="activity"></unicode>
+              <string role="key" value="parentNode"></string>
+              <reference key="47"></reference>
+              <string role="key" value="systemResources"></string>
+              <list>
+               <string value="common.js"></string>
+              </list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
            <string role="key" value="_id"></string>
            <unicode value="5"></unicode>
            <string role="key" value="_package"></string>
@@ -936,7 +2640,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="17">
+      <instance class="exe.engine.node.Node" reference="56">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Unidad 2: MOVIMIENTO"></unicode>
@@ -960,7 +2664,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="30">
+         <instance class="exe.engine.node.Node" reference="65">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Tema 6: Magnitudes del movimiento: posición, trayectoria y desplazamiento"></unicode>
@@ -979,14 +2683,14 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:CIENCIAS%20DE%20LA%20NATURALEZA%203%C2%B0:Unidad%202%3A%20MOVIMIENTO:Tema%206%3A%20Magnitudes%20del%20movimiento%3A%20posici%C3%B3n%2C%20trayectoria%20y%20desplazamiento"></string>
            <string role="key" value="parent"></string>
-           <reference key="17"></reference>
+           <reference key="56"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="31">
+         <instance class="exe.engine.node.Node" reference="66">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Tema 7: Magnitudes del movimiento: velocidad y rapidez"></unicode>
@@ -1005,14 +2709,14 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:CIENCIAS%20DE%20LA%20NATURALEZA%203%C2%B0:Unidad%202%3A%20MOVIMIENTO:Tema%207%3A%20Magnitudes%20del%20movimiento%3A%20velocidad%20y%20rapidez"></string>
            <string role="key" value="parent"></string>
-           <reference key="17"></reference>
+           <reference key="56"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="20">
+         <instance class="exe.engine.node.Node" reference="59">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Tema 8: Movimientos rectilíneos"></unicode>
@@ -1031,14 +2735,14 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:CIENCIAS%20DE%20LA%20NATURALEZA%203%C2%B0:Unidad%202%3A%20MOVIMIENTO:Tema%208%3A%20Movimientos%20rectil%C3%ADneos"></string>
            <string role="key" value="parent"></string>
-           <reference key="17"></reference>
+           <reference key="56"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="22">
+         <instance class="exe.engine.node.Node" reference="61">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Tema 9: Movimiento vertical de los cuerpos"></unicode>
@@ -1057,14 +2761,14 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:CIENCIAS%20DE%20LA%20NATURALEZA%203%C2%B0:Unidad%202%3A%20MOVIMIENTO:Tema%209%3A%20Movimiento%20vertical%20de%20los%20cuerpos"></string>
            <string role="key" value="parent"></string>
-           <reference key="17"></reference>
+           <reference key="56"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="21">
+         <instance class="exe.engine.node.Node" reference="60">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Tema 10: Movimientos curvilíneos"></unicode>
@@ -1083,14 +2787,14 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:CIENCIAS%20DE%20LA%20NATURALEZA%203%C2%B0:Unidad%202%3A%20MOVIMIENTO:Tema%2010%3A%20Movimientos%20curvil%C3%ADneos"></string>
            <string role="key" value="parent"></string>
-           <reference key="17"></reference>
+           <reference key="56"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="23">
+         <instance class="exe.engine.node.Node" reference="62">
           <dictionary>
            <string role="key" value="_title"></string>
            <string value=""></string>
@@ -1109,7 +2813,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:CIENCIAS%20DE%20LA%20NATURALEZA%203%C2%B0:Unidad%202%3A%20MOVIMIENTO:Secci%C3%B3n"></string>
            <string role="key" value="parent"></string>
-           <reference key="17"></reference>
+           <reference key="56"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -1119,7 +2823,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="18">
+      <instance class="exe.engine.node.Node" reference="57">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Unidad 3: DINÁMICA"></unicode>
@@ -1143,7 +2847,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="19">
+         <instance class="exe.engine.node.Node" reference="58">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Tema 11: Fuerza"></unicode>
@@ -1162,14 +2866,14 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:CIENCIAS%20DE%20LA%20NATURALEZA%203%C2%B0:Unidad%203%3A%20DIN%C3%81MICA:Tema%2011%3A%20Fuerza"></string>
            <string role="key" value="parent"></string>
-           <reference key="18"></reference>
+           <reference key="57"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="24">
+         <instance class="exe.engine.node.Node" reference="63">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Tema 12: Leyes de Newton"></unicode>
@@ -1188,14 +2892,14 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:CIENCIAS%20DE%20LA%20NATURALEZA%203%C2%B0:Unidad%203%3A%20DIN%C3%81MICA:Tema%2012%3A%20Leyes%20de%20Newton"></string>
            <string role="key" value="parent"></string>
-           <reference key="18"></reference>
+           <reference key="57"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="26">
+         <instance class="exe.engine.node.Node" reference="64">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Tema 13: Diferentes tipos de fuerza"></unicode>
@@ -1214,7 +2918,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:CIENCIAS%20DE%20LA%20NATURALEZA%203%C2%B0:Unidad%203%3A%20DIN%C3%81MICA:Tema%2013%3A%20Diferentes%20tipos%20de%20fuerza"></string>
            <string role="key" value="parent"></string>
-           <reference key="18"></reference>
+           <reference key="57"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -1230,37 +2934,37 @@ that may help or hinder the learner in the performance of the task."></unicode>
    <unicode role="key" value="1"></unicode>
    <reference key="8"></reference>
    <unicode role="key" value="11"></unicode>
-   <reference key="19"></reference>
+   <reference key="58"></reference>
    <unicode role="key" value="12"></unicode>
-   <reference key="18"></reference>
+   <reference key="57"></reference>
    <unicode role="key" value="15"></unicode>
-   <reference key="20"></reference>
+   <reference key="59"></reference>
    <unicode role="key" value="16"></unicode>
-   <reference key="21"></reference>
+   <reference key="60"></reference>
    <unicode role="key" value="17"></unicode>
-   <reference key="22"></reference>
+   <reference key="61"></reference>
    <unicode role="key" value="18"></unicode>
-   <reference key="23"></reference>
+   <reference key="62"></reference>
    <unicode role="key" value="19"></unicode>
-   <reference key="24"></reference>
+   <reference key="63"></reference>
    <unicode role="key" value="2"></unicode>
-   <reference key="25"></reference>
+   <reference key="16"></reference>
    <unicode role="key" value="20"></unicode>
-   <reference key="26"></reference>
+   <reference key="64"></reference>
    <unicode role="key" value="3"></unicode>
-   <reference key="27"></reference>
+   <reference key="34"></reference>
    <unicode role="key" value="4"></unicode>
-   <reference key="28"></reference>
+   <reference key="25"></reference>
    <unicode role="key" value="5"></unicode>
-   <reference key="29"></reference>
+   <reference key="47"></reference>
    <unicode role="key" value="6"></unicode>
-   <reference key="17"></reference>
+   <reference key="56"></reference>
    <unicode role="key" value="7"></unicode>
-   <reference key="30"></reference>
+   <reference key="65"></reference>
    <unicode role="key" value="8"></unicode>
    <reference key="4"></reference>
    <unicode role="key" value="9"></unicode>
-   <reference key="31"></reference>
+   <reference key="66"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -1271,7 +2975,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="8"></reference>
+  <reference key="47"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -2304,7 +4008,68 @@ that may help or hinder the learner in the performance of the task."></unicode>
   <string role="key" value="release"></string>
   <string value="2.9"></string>
   <string role="key" value="resources"></string>
-  <dictionary></dictionary>
+  <dictionary>
+   <string role="key" value="4ff7f229603bdc8a5aae7f5b69d5b847"></string>
+   <list>
+    <reference key="37"></reference>
+   </list>
+   <string role="key" value="66e80f5384d6e60e29da39d5fe685531"></string>
+   <list>
+    <reference key="52"></reference>
+   </list>
+   <string role="key" value="731494f8df7e37d8d6f5927dcf5db4ab"></string>
+   <list>
+    <reference key="40"></reference>
+   </list>
+   <string role="key" value="755b94b89fb4fcdb6607ad18191ca8a4"></string>
+   <list>
+    <reference key="51"></reference>
+   </list>
+   <string role="key" value="778bc1a90d310e543586b4a0d82c8ad8"></string>
+   <list>
+    <reference key="39"></reference>
+   </list>
+   <string role="key" value="80e66c8d5bd096d5f44af6a79aeaf01d"></string>
+   <list>
+    <reference key="19"></reference>
+   </list>
+   <string role="key" value="930217b86feb7934cbc7a5c7ef523097"></string>
+   <list>
+    <reference key="38"></reference>
+   </list>
+   <string role="key" value="9af7aa3542a25d5b1b252c074e9bf0b4"></string>
+   <list>
+    <reference key="41"></reference>
+   </list>
+   <string role="key" value="af654c2189b4b7edbe50413af47e04d8"></string>
+   <list>
+    <reference key="29"></reference>
+   </list>
+   <string role="key" value="b3c6e2a67476d9fff95d525615ae7903"></string>
+   <list>
+    <reference key="28"></reference>
+   </list>
+   <string role="key" value="ca764707c66f9e6311c9312ec1191e08"></string>
+   <list>
+    <reference key="42"></reference>
+   </list>
+   <string role="key" value="cdf326a6e67783eb9fd78b96eafd0ae4"></string>
+   <list>
+    <reference key="20"></reference>
+   </list>
+   <string role="key" value="e4f24b23232d515fb340336cf65b8bbf"></string>
+   <list>
+    <reference key="11"></reference>
+   </list>
+   <string role="key" value="f3ff6a57d6174bdfaa76d8c417bf1cf5"></string>
+   <list>
+    <reference key="50"></reference>
+   </list>
+   <string role="key" value="ffdda0d33f31ef3d3ab28b71da60045f"></string>
+   <list>
+    <reference key="53"></reference>
+   </list>
+  </dictionary>
   <string role="key" value="root"></string>
   <reference key="5"></reference>
   <string role="key" value="scolinks"></string>
@@ -2314,7 +4079,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
   <string role="key" value="scowwebsite"></string>
   <bool value="0"></bool>
   <string role="key" value="style"></string>
-  <unicode value="udl"></unicode>
+  <unicode value="docs"></unicode>
   <string role="key" value="sugaractivityname"></string>
   <string value=""></string>
   <string role="key" value="sugarservicename"></string>
